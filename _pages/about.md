@@ -17,14 +17,14 @@ My primary research interests lie in the area of Natural Language Processing & L
 (1) Multi-lingual summarization, e.g., [PISCES (ACL 2023)](https://arxiv.org/abs/2305.09220), [MM-Sum (ACL 2023)](https://arxiv.org/abs/2212.07672), [D2TV (EMNLP 2023 Findings)](https://arxiv.org/abs/2305.12767).
 (2) Cross-Lingual Summarization, e.g., [CLS Survey (TACL 2022)](https://arxiv.org/abs/2203.12515), [Translationese in CLS (EMNLP 2023 Findings)](https://arxiv.org/abs/2212.07220), [ClidSum (EMNLP 2022)](https://arxiv.org/abs/2202.05599), [Perseus (WSDM 2023)](https://arxiv.org/abs/2212.00586). 
 (3) Cross-lingual knowledge editing, e.g., [Bi-ZsRE (ACL 2024)](https://arxiv.org/abs/2309.08952).
-(4) Machine translation, e.g., [SCD (ACL 2024)](https://aclanthology.org/2024.acl-long.588/). 
+(4) Machine translation, e.g., [SCD (ACL 2024)](https://aclanthology.org/2024.acl-long.588/), [DRT-o1 (arXiv preprint 2024)](https://arxiv.org/abs/2412.17498) and [RAGtrans (arXiv preprint 2024)](https://arxiv.org/abs/2412.04342). 
 - **NLG Evaluation**: [Is ChatGPT a Good NLG Evaluator? (NewSumm@EMNLP 2023)](https://arxiv.org/abs/2303.04048).
 - **Dialogue Generation**: (1) Knowledge-grounded dialogue, e.g., [EnCo (AAAI 2024)](https://arxiv.org/abs/2401.04361).
 (2) Emotion support dialogue, e.g., [ESC-Eval (EMNLP 2024)](https://arxiv.org/abs/2406.14952);
 (3) Role-Playing dialogue.
 - **Knowledge Graphs**: (1) Multi-modal knowledge graphs, e.g., [M2ConceptBase (CIKM 2024)](https://arxiv.org/abs/2312.10417), [AspectMMKG (CIKM 2023)](https://arxiv.org/abs/2308.04992);
 (2) Temporal knowledge graphs, e.g., [MusTQ (ACL 2024 Findings)](https://aclanthology.org/2024.findings-acl.696/).
-- **Graph Mining**: Graph pre-training, e.g., [EmojiGraph (EMNLP 2024)](https://arxiv.org/abs/2409.14552), Wild-GAD (KDD 2024), [W2PGNN (KDD 2023)](https://arxiv.org/abs/2303.16458).
+- **Graph Mining**: Graph pre-training, e.g., [EmojiGraph (EMNLP 2024)](https://arxiv.org/abs/2409.14552), Wild-GAD (KDD 2025), [W2PGNN (KDD 2023)](https://arxiv.org/abs/2303.16458).
 
 **We are hiring several research interns (location: Beijing) about LLM and multilingual NLP. Please feel free to contact me if you are interested.**
 
@@ -43,7 +43,12 @@ My primary research interests lie in the area of Natural Language Processing & L
 
 # 📝 Selected Publications 
 Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7qAAAAAJ) for the full list.   
-
+1. [DRT-o1: Optimized Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT-o1)]   
+**Jiaan Wang**, Fandong Meng, Yunlong Liang and Jie Zhou   
+arXiv preprint 2024
+1. [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
+**Jiaan Wang**, Fandong Meng, Yingxue Zhang and Jie Zhou   
+arXiv preprint 2024
 1. [Cross-Lingual Knowledge Editing in Large Language Models](https://arxiv.org/abs/2309.08952) \| [[Data&Code](https://github.com/krystalan/Bi_ZsRE)]  
 **Jiaan Wang**, Yunlong Liang, Zengkui Sun, Yuxuan Cao, Jiarong Xu and Fandong Meng   
 In Proc. of **ACL 2024** (main conference, full paper)    
@@ -68,7 +73,8 @@ In Proc. of **AAAI 2024** (full paper)
  
 
 # 🗞️ Academic Services
-- PC Member: ACL Rolling Review (2022-2024), ACL (2023-2024), KDD 2023, EMNLP (2022-2024), EACL 2024, COLING (2022, 2024), CoNLL (2023-2024), ICANN (2021, 2023), SDM 2024, ICIRA 2023
+- Area Chair: ACL Rolling Review (2024-)
+- PC Member: ACL Rolling Review (2022-2024), ACL (2023-2024), KDD 2023, EMNLP (2022-2024), NAACL 2024, EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024), ICANN (2021, 2023), SDM 2024, ICIRA 2023
 - Journal Reviewer: Journal of Artificial Intelligence Research (JAIR)
 
 
