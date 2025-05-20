@@ -84,7 +84,7 @@ In Proc. of **AAAI 2024** (full paper)
 
 # 🗞️ Academic Services
 - Area Chair: ACL Rolling Review (2024-2025), NeurIPS 2025
-- PC Member: ACL Rolling Review (2022-2024), ACL (2023-2024), KDD 2023, EMNLP (2022-2024), NAACL 2024, EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024), ICANN (2021, 2023), SDM 2024, ICIRA 2023
+- PC Member: ACL Rolling Review (2022-2025), ACL (2023-2025), KDD (2023, 2025), EMNLP (2022-2025), SIGIR 2025, NAACL (2024-2025), EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024), ICANN (2021, 2023), SDM 2024, ICIRA 2023, SIGIR-AP 2025
 - Journal Reviewer: Journal of Artificial Intelligence Research (JAIR)
 
 
@@ -94,7 +94,3 @@ In Proc. of **AAAI 2024** (full paper)
 - [*2021.10*] China National Scholarship
 - [*2015*] Provincial First Prize at Chinese Mathematics Olympiad (Rank: 42<sup>nd</sup> in Shaanxi province) 
 - [*2014*] Provincial First Prize at Chinese Mathematics Olympiad (Rank: 16<sup>th</sup> in Shaanxi province)
-
-
-
-
