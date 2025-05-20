@@ -14,10 +14,11 @@ Hello! I'm Jiaan Wang (王佳安). I am currently a NLP researcher at WeChat AI,
 
 My primary research interests lie in the area of Natural Language Processing & Large Language Models with the following research topics:
 - **Multi-lingual NLP**:
-(1) Multi-lingual summarization, e.g., [PISCES (ACL 2023)](https://arxiv.org/abs/2305.09220), [MM-Sum (ACL 2023)](https://arxiv.org/abs/2212.07672), [D2TV (EMNLP 2023 Findings)](https://arxiv.org/abs/2305.12767).
-(2) Cross-Lingual Summarization, e.g., [CLS Survey (TACL 2022)](https://arxiv.org/abs/2203.12515), [Translationese in CLS (EMNLP 2023 Findings)](https://arxiv.org/abs/2212.07220), [ClidSum (EMNLP 2022)](https://arxiv.org/abs/2202.05599), [Perseus (WSDM 2023)](https://arxiv.org/abs/2212.00586). 
-(3) Cross-lingual knowledge editing, e.g., [Bi-ZsRE (ACL 2024)](https://arxiv.org/abs/2309.08952).
-(4) Machine translation, e.g., [SCD (ACL 2024)](https://aclanthology.org/2024.acl-long.588/), [DRT-o1 (arXiv preprint 2024)](https://arxiv.org/abs/2412.17498) and [RAGtrans (arXiv preprint 2024)](https://arxiv.org/abs/2412.04342). 
+    - Machine translation, e.g., [DRT (ACL 2025 Findings)](https://arxiv.org/abs/2412.17498), [DeepTrans (arXiv preprint 2025)](https://arxiv.org/abs/2504.10187), [ExTrans (arXiv preprint 2025)](https://arxiv.org/abs/2505.12996), [SCD (ACL 2024)](https://aclanthology.org/2024.acl-long.588/) and [RAGtrans (arXiv preprint 2024)](https://arxiv.org/abs/2412.04342).
+    - Multi-lingual summarization, e.g., [M2MS empirical study (ACL 2025)](https://arxiv.org/abs/2505.12983), [PISCES (ACL 2023)](https://arxiv.org/abs/2305.09220), [MM-Sum (ACL 2023)](https://arxiv.org/abs/2212.07672), [D2TV (EMNLP 2023 Findings)](https://arxiv.org/abs/2305.12767).
+    - Cross-Lingual Summarization, e.g., [CLS Survey (TACL 2022)](https://arxiv.org/abs/2203.12515), [Translationese in CLS (EMNLP 2023 Findings)](https://arxiv.org/abs/2212.07220), [ClidSum (EMNLP 2022)](https://arxiv.org/abs/2202.05599), [Perseus (WSDM 2023)](https://arxiv.org/abs/2212.00586). 
+    - Cross-lingual knowledge editing, e.g., [Bi-ZsRE (ACL 2024)](https://arxiv.org/abs/2309.08952).
+
 - **NLG Evaluation**: [Is ChatGPT a Good NLG Evaluator? (NewSumm@EMNLP 2023)](https://arxiv.org/abs/2303.04048).
 - **Dialogue Generation**: (1) Knowledge-grounded dialogue, e.g., [EnCo (AAAI 2024)](https://arxiv.org/abs/2401.04361).
 (2) Emotion support dialogue, e.g., [ESC-Eval (EMNLP 2024)](https://arxiv.org/abs/2406.14952);
@@ -42,13 +43,22 @@ My primary research interests lie in the area of Natural Language Processing & L
 
 
 # 📝 Selected Publications 
-Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7qAAAAAJ) for the full list.   
-1. [DRT-o1: Optimized Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT-o1)]   
-**Jiaan Wang**, Fandong Meng, Yunlong Liang and Jie Zhou   
-arXiv preprint 2024
+Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7qAAAAAJ) for the full list.    
+1. [ExTrans: Multilingual Deep Reasoning Translation via Exemplar-Enhanced Reinforcement Learning](https://arxiv.org/abs/2505.12996) \| [[GitHub](https://github.com/krystalan/DRT)]     
+**Jiaan Wang**, Fandong Meng and Jie Zhou  
+arXiv preprint 2025     
+1. [Deep Reasoning Translation via Reinforcement Learning](https://arxiv.org/abs/2504.10187) \| [[GitHub](https://github.com/krystalan/DRT)]     
+**Jiaan Wang**, Fandong Meng and Jie Zhou  
+arXiv preprint 2025   
 1. [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
 **Jiaan Wang**, Fandong Meng, Yingxue Zhang and Jie Zhou   
-arXiv preprint 2024
+arXiv preprint 2024      
+1. [DRT: Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT)]   
+**Jiaan Wang**, Fandong Meng, Yunlong Liang and Jie Zhou   
+In Proc. of **ACL 2025** (findings, full paper)    
+1. [An Empirical Study of Many-to-Many Summarization with Large Language Models](https://arxiv.org/abs/2505.12983)       
+**Jiaan Wang**, Fandong Meng, Zengkui Sun, Yunlong Liang, Yuxuan Cao, Jiarong Xu, Haoxiang Shi and Jie Zhou   
+In Proc. of **ACL 2025** (main conference, full paper)    
 1. [Cross-Lingual Knowledge Editing in Large Language Models](https://arxiv.org/abs/2309.08952) \| [[Data&Code](https://github.com/krystalan/Bi_ZsRE)]  
 **Jiaan Wang**, Yunlong Liang, Zengkui Sun, Yuxuan Cao, Jiarong Xu and Fandong Meng   
 In Proc. of **ACL 2024** (main conference, full paper)    
@@ -73,7 +83,7 @@ In Proc. of **AAAI 2024** (full paper)
  
 
 # 🗞️ Academic Services
-- Area Chair: ACL Rolling Review (2024-)
+- Area Chair: ACL Rolling Review (2024-2025), NeurIPS 2025
 - PC Member: ACL Rolling Review (2022-2024), ACL (2023-2024), KDD 2023, EMNLP (2022-2024), NAACL 2024, EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024), ICANN (2021, 2023), SDM 2024, ICIRA 2023
 - Journal Reviewer: Journal of Artificial Intelligence Research (JAIR)
 
