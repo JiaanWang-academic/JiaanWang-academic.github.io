@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I'm Jiaan Wang (王佳安). I am currently a NLP researcher at WeChat AI, Tencent in Beijing. Before that, I received B.Eng. and M.S from Soochow University (2016-2023), advised by [Prof. Zhixu Li](https://sites.google.com/site/zhixuli) (now at Renmin University of China) and [Dr. Fandong Meng](http://fandongmeng.github.io/) (from WeChat AI). I also collaborated closely with [Dr. Jiarong Xu](https://galina0217.github.io/) (from Fudan University).
+Hello! I'm Jiaan Wang (王佳安). I am currently a NLP researcher at WeChat AI, Tencent in Beijing. Before that, I received B.Eng. and M.S from Soochow University (2016-2023), advised by [Prof. Zhixu Li](https://sites.google.com/site/zhixuli) (now at Renmin University of China) and [Dr. Fandong Meng](http://fandongmeng.github.io/) (from WeChat AI). I also collaborated closely with [Dr. Jiarong Xu](https://galina0217.github.io/) (from Fudan University) and [Dr. Jianfeng Qu](https://scholar.google.com/citations?user=aTUbmccAAAAJ) (from Soochow University).
 
 My primary research interests lie in the area of Natural Language Processing & Large Language Models with the following research topics:
 - **Multi-lingual NLP**:
@@ -25,7 +25,7 @@ My primary research interests lie in the area of Natural Language Processing & L
 (3) Role-Playing dialogue.
 - **Knowledge Graphs**: (1) Multi-modal knowledge graphs, e.g., [M2ConceptBase (CIKM 2024)](https://arxiv.org/abs/2312.10417), [AspectMMKG (CIKM 2023)](https://arxiv.org/abs/2308.04992);
 (2) Temporal knowledge graphs, e.g., [MusTQ (ACL 2024 Findings)](https://aclanthology.org/2024.findings-acl.696/).
-- **Graph Mining**: Graph pre-training, e.g., [EmojiGraph (EMNLP 2024)](https://arxiv.org/abs/2409.14552), Wild-GAD (KDD 2025), [W2PGNN (KDD 2023)](https://arxiv.org/abs/2303.16458).
+- **Graph Mining**: Graph pre-training, e.g., [Wild-GAD (KDD 2025)](https://arxiv.org/abs/2506.04190)， [EmojiGraph (EMNLP 2024)](https://arxiv.org/abs/2409.14552), [W2PGNN (KDD 2023)](https://arxiv.org/abs/2303.16458).
 
 **We are hiring several research interns (location: Beijing) about LLM and multilingual NLP. Please feel free to contact me if you are interested.**
 
@@ -44,48 +44,58 @@ My primary research interests lie in the area of Natural Language Processing & L
 
 # 📝 Selected Publications 
 Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7qAAAAAJ) for the full list.    
-1. [ExTrans: Multilingual Deep Reasoning Translation via Exemplar-Enhanced Reinforcement Learning](https://arxiv.org/abs/2505.12996) \| [[GitHub](https://github.com/krystalan/DRT)]     
+
+### Recent Preprints
+
++ [ExTrans: Multilingual Deep Reasoning Translation via Exemplar-Enhanced Reinforcement Learning](https://arxiv.org/abs/2505.12996) \| [[GitHub](https://github.com/krystalan/DRT)]     
 **Jiaan Wang**, Fandong Meng and Jie Zhou  
-arXiv preprint 2025     
-1. [Deep Reasoning Translation via Reinforcement Learning](https://arxiv.org/abs/2504.10187) \| [[GitHub](https://github.com/krystalan/DRT)]     
-**Jiaan Wang**, Fandong Meng and Jie Zhou  
-arXiv preprint 2025   
-1. [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
+arXiv preprint 2025       
++ [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
 **Jiaan Wang**, Fandong Meng, Yingxue Zhang and Jie Zhou   
-arXiv preprint 2024      
-1. [DRT: Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT)]   
+arXiv preprint 2024  
+
+### Recent Publications
++ [Deep Reasoning Translation via Reinforcement Learning](https://arxiv.org/abs/2504.10187) \| [[GitHub](https://github.com/krystalan/DRT)]     
+**Jiaan Wang**, Fandong Meng and Jie Zhou  
+arXiv preprint 2025 (conditionally accepted by **TACL**)     
++ [DRT: Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT)]   
 **Jiaan Wang**, Fandong Meng, Yunlong Liang and Jie Zhou   
 In Proc. of **ACL 2025** (findings, full paper)    
-1. [An Empirical Study of Many-to-Many Summarization with Large Language Models](https://arxiv.org/abs/2505.12983)       
++ [An Empirical Study of Many-to-Many Summarization with Large Language Models](https://arxiv.org/abs/2505.12983)       
 **Jiaan Wang**, Fandong Meng, Zengkui Sun, Yunlong Liang, Yuxuan Cao, Jiarong Xu, Haoxiang Shi and Jie Zhou   
 In Proc. of **ACL 2025** (main conference, full paper)    
-1. [Cross-Lingual Knowledge Editing in Large Language Models](https://arxiv.org/abs/2309.08952) \| [[Data&Code](https://github.com/krystalan/Bi_ZsRE)]  
++ [Cross-Lingual Knowledge Editing in Large Language Models](https://arxiv.org/abs/2309.08952) \| [[Data&Code](https://github.com/krystalan/Bi_ZsRE)]  
 **Jiaan Wang**, Yunlong Liang, Zengkui Sun, Yuxuan Cao, Jiarong Xu and Fandong Meng   
 In Proc. of **ACL 2024** (main conference, full paper)    
-1. [Towards Unifying Multi-Lingual and Cross-Lingual Summarization](http://arxiv.org/abs/2305.09220)  \| [[Model](https://huggingface.co/Krystalan/PISCES)] \| [[Report](https://mp.weixin.qq.com/s/JHyXyWrKfj5YrtSZKpfwog)]   
++ [Towards Unifying Multi-Lingual and Cross-Lingual Summarization](http://arxiv.org/abs/2305.09220)  \| [[Model](https://huggingface.co/Krystalan/PISCES)] \| [[Report](https://mp.weixin.qq.com/s/JHyXyWrKfj5YrtSZKpfwog)]   
 **Jiaan Wang**, Fandong Meng, Duo Zheng, Yunlong Liang, Zhixu Li, Jianfeng Qu and Jie Zhou   
 In Proc. of **ACL 2023** (main conference, full paper)
-1. [Understanding Translationese in Cross-Lingual Summarization](https://arxiv.org/abs/2212.07220)  
++ [Understanding Translationese in Cross-Lingual Summarization](https://arxiv.org/abs/2212.07220)  
 **Jiaan Wang**, Fandong Meng, Yunlong Liang, Tingyi Zhang, Jiarong Xu, Zhixu Li and Jie Zhou  
 In Proc. of **EMNLP 2023** (findings, full paper)
-1. [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](https://arxiv.org/abs/2303.04048) \| [[Data&Code](https://github.com/krystalan/chatgpt_as_nlg_evaluator)]     
++ [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](https://arxiv.org/abs/2303.04048) \| [[Data&Code](https://github.com/krystalan/chatgpt_as_nlg_evaluator)]     
 **Jiaan Wang**, Yunlong Liang, Fandong Meng, Zengkui Sun, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu and Jie Zhou  
 In Proc. of **NewSumm@EMNLP 2023** (workshop paper)
-1. [A Survey on Cross-Lingual Summarization](https://arxiv.org/abs/2203.12515) \| [[Report](https://mp.weixin.qq.com/s/OL6-Yp4NgnTsvXMCHOJMog)]    
++ [A Survey on Cross-Lingual Summarization](https://arxiv.org/abs/2203.12515) \| [[Report](https://mp.weixin.qq.com/s/OL6-Yp4NgnTsvXMCHOJMog)]    
 **Jiaan Wang**, Fandong Meng, Duo Zheng, Yunlong Liang, Zhixu Li, Jianfeng Qu and Jie Zhou   
 In Proc. of **TACL 2022**   
-1. [ClidSum: A Benchmark Dataset for Cross-Lingual Dialogue Summarization](https://arxiv.org/abs/2202.05599) \| [[Data&Code](https://github.com/krystalan/ClidSum)] \| [[Model](https://huggingface.co/Krystalan/mdialbart_zh)] \| [[Report](https://mp.weixin.qq.com/s/M8BR3MySZBuu7ixdFi_SRQ)]  
++ [ClidSum: A Benchmark Dataset for Cross-Lingual Dialogue Summarization](https://arxiv.org/abs/2202.05599) \| [[Data&Code](https://github.com/krystalan/ClidSum)] \| [[Model](https://huggingface.co/Krystalan/mdialbart_zh)] \| [[Report](https://mp.weixin.qq.com/s/M8BR3MySZBuu7ixdFi_SRQ)]  
 **Jiaan Wang**, Fandong Meng, Ziyao Lu, Duo Zheng, Zhixu Li, Jianfeng Qu and Jie Zhou   
 In Proc. of **EMNLP 2022** (main conference, full paper)  
-1. [Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning](https://arxiv.org/abs/2401.04361)  
++ [Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning](https://arxiv.org/abs/2401.04361)  
 **Jiaan Wang**, Jianfeng Qu, Kexin Wang, Zhixu Li, Wen Hua, Ximing Li and An Liu  
 In Proc. of **AAAI 2024** (full paper)  
  
 
-# 🗞️ Academic Services
+
+# 🗞️ Teaching & Services
 - Area Chair: ACL Rolling Review (2024-2025), NeurIPS 2025
-- PC Member: ACL Rolling Review (2022-2025), ACL (2023-2025), KDD (2023, 2025), EMNLP (2022-2025), SIGIR 2025, NAACL (2024-2025), EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024), ICANN (2021, 2023), SDM 2024, ICIRA 2023, SIGIR-AP 2025
+- PC Member:
+    - NLP Conference: ACL Rolling Review (2022-2025), ACL (2023-2025), EMNLP (2022-2025), NAACL (2024-2025), EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024)
+    - DM conference: KDD (2023, 2025), SIGIR 2025, WSDM 2026, SIGIR-AP 2025, SDM 2024 
+    - Others: ICANN (2021, 2023), ICIRA 2023
 - Journal Reviewer: Journal of Artificial Intelligence Research (JAIR)
+- IJCAI 2025 Tutorial: [LLM-based Role-Playing from the Perspective of Hallucination](https://ijcai-roleplay.github.io/)
 
 
 # 🎖 Honors and Awards
