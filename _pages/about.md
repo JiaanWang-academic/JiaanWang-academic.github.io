@@ -50,14 +50,15 @@ Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7
 + [ExTrans: Multilingual Deep Reasoning Translation via Exemplar-Enhanced Reinforcement Learning](https://arxiv.org/abs/2505.12996) \| [[GitHub](https://github.com/krystalan/DRT)]     
 **Jiaan Wang**, Fandong Meng and Jie Zhou  
 arXiv preprint 2025       
-+ [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
-**Jiaan Wang**, Fandong Meng, Yingxue Zhang and Jie Zhou   
-arXiv preprint 2024  
+
 
 ### Recent Publications
-+ [Deep Reasoning Translation via Reinforcement Learning](https://arxiv.org/abs/2504.10187) \| [[GitHub](https://github.com/krystalan/DRT)]     
++ [DeepTrans: Deep Reasoning Translation via Reinforcement Learning](https://arxiv.org/abs/2504.10187) \| [[GitHub](https://github.com/krystalan/DRT)]     
 **Jiaan Wang**, Fandong Meng and Jie Zhou  
-arXiv preprint 2025 (conditionally accepted by **TACL**)     
+accepted by **TACL**    
++ [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
+**Jiaan Wang**, Fandong Meng, Yingxue Zhang and Jie Zhou   
+In Proc. of **EMNLP 2025** (findings, full paper)   
 + [DRT: Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT)]   
 **Jiaan Wang**, Fandong Meng, Yunlong Liang and Jie Zhou   
 In Proc. of **ACL 2025** (findings, full paper)    
@@ -92,8 +93,8 @@ In Proc. of **AAAI 2024** (full paper)
 - Area Chair: ACL Rolling Review (2024-2025), NeurIPS 2025
 - PC Member:
     - NLP Conference: ACL Rolling Review (2022-2025), ACL (2023-2025), EMNLP (2022-2025), NAACL (2024-2025), EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024)
-    - DM conference: KDD (2023, 2025), SIGIR 2025, WSDM 2026, SIGIR-AP 2025, SDM 2024 
-    - Others: ICANN (2021, 2023), ICIRA 2023
+    - DM Conference: KDD (2023, 2025), SIGIR 2025, WSDM 2026, SIGIR-AP 2025, SDM 2024 
+    - AI Conference: AAAI 2026, ICANN (2021, 2023), ICIRA 2023
 - Journal Reviewer: Journal of Artificial Intelligence Research (JAIR)
 - IJCAI 2025 Tutorial: [LLM-based Role-Playing from the Perspective of Hallucination](https://ijcai-roleplay.github.io/)
 
