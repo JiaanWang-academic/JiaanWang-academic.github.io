@@ -12,20 +12,11 @@ redirect_from:
 
 Hello! I'm Jiaan Wang (王佳安). I am currently a NLP researcher at WeChat AI, Tencent in Beijing. Before that, I received B.Eng. and M.S from Soochow University (2016-2023), advised by [Prof. Zhixu Li](https://sites.google.com/site/zhixuli) (now at Renmin University of China) and [Dr. Fandong Meng](http://fandongmeng.github.io/) (from WeChat AI). I also collaborated closely with [Dr. Jiarong Xu](https://galina0217.github.io/) (from Fudan University) and [Dr. Jianfeng Qu](https://scholar.google.com/citations?user=aTUbmccAAAAJ) (from Soochow University).
 
-My primary research interests lie in the area of Natural Language Processing & Large Language Models with the following research topics:
-- **Multi-lingual NLP**:
-    - Machine translation, e.g., [DRT (ACL 2025 Findings)](https://arxiv.org/abs/2412.17498), [DeepTrans (arXiv preprint 2025)](https://arxiv.org/abs/2504.10187), [ExTrans (arXiv preprint 2025)](https://arxiv.org/abs/2505.12996), [SCD (ACL 2024)](https://aclanthology.org/2024.acl-long.588/) and [RAGtrans (arXiv preprint 2024)](https://arxiv.org/abs/2412.04342).
-    - Multi-lingual summarization, e.g., [M2MS empirical study (ACL 2025)](https://arxiv.org/abs/2505.12983), [PISCES (ACL 2023)](https://arxiv.org/abs/2305.09220), [MM-Sum (ACL 2023)](https://arxiv.org/abs/2212.07672), [D2TV (EMNLP 2023 Findings)](https://arxiv.org/abs/2305.12767).
-    - Cross-Lingual Summarization, e.g., [CLS Survey (TACL 2022)](https://arxiv.org/abs/2203.12515), [Translationese in CLS (EMNLP 2023 Findings)](https://arxiv.org/abs/2212.07220), [ClidSum (EMNLP 2022)](https://arxiv.org/abs/2202.05599), [Perseus (WSDM 2023)](https://arxiv.org/abs/2212.00586). 
-    - Cross-lingual knowledge editing, e.g., [Bi-ZsRE (ACL 2024)](https://arxiv.org/abs/2309.08952).
-
+My primary research interests lie in the area of Natural Language Processing & Large Language Models, with the following research topics:
+- **Machine Translation**: [DeepTrans (TACL 2025)](https://arxiv.org/abs/2504.10187), [DRT (ACL 2025 Findings)](https://arxiv.org/abs/2412.17498), [RAGtrans (EMNLP 2025 Findings)](https://arxiv.org/abs/2412.04342) and [ExTrans (arXiv preprint 2025)](https://arxiv.org/abs/2505.12996).
+- **Multi-lingual Summarization**: [M2MS empirical study (ACL 2025)](https://arxiv.org/abs/2505.12983), [PISCES (ACL 2023)](https://arxiv.org/abs/2305.09220), [Translationese in CLS (EMNLP 2023 Findings)](https://arxiv.org/abs/2212.07220), [CLS Survey (TACL 2022)](https://arxiv.org/abs/2203.12515), [ClidSum (EMNLP 2022)](https://arxiv.org/abs/2202.05599). 
+- **Dialogue Generation**: [Role-Play Tutorial (IJCAI 2025)](https://ijcai-roleplay.github.io/), [EnCo (AAAI 2024)](https://arxiv.org/abs/2401.04361)
 - **NLG Evaluation**: [Is ChatGPT a Good NLG Evaluator? (NewSumm@EMNLP 2023)](https://arxiv.org/abs/2303.04048).
-- **Dialogue Generation**: (1) Knowledge-grounded dialogue, e.g., [EnCo (AAAI 2024)](https://arxiv.org/abs/2401.04361).
-(2) Emotion support dialogue, e.g., [ESC-Eval (EMNLP 2024)](https://arxiv.org/abs/2406.14952);
-(3) Role-Playing dialogue.
-- **Knowledge Graphs**: (1) Multi-modal knowledge graphs, e.g., [M2ConceptBase (CIKM 2024)](https://arxiv.org/abs/2312.10417), [AspectMMKG (CIKM 2023)](https://arxiv.org/abs/2308.04992);
-(2) Temporal knowledge graphs, e.g., [MusTQ (ACL 2024 Findings)](https://aclanthology.org/2024.findings-acl.696/).
-- **Graph Mining**: Graph pre-training, e.g., [Wild-GAD (KDD 2025)](https://arxiv.org/abs/2506.04190)， [EmojiGraph (EMNLP 2024)](https://arxiv.org/abs/2409.14552), [W2PGNN (KDD 2023)](https://arxiv.org/abs/2303.16458).
 
 **We are hiring several research interns (location: Beijing) about LLM and multilingual NLP. Please feel free to contact me if you are interested.**
 
