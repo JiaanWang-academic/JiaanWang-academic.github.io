@@ -27,7 +27,6 @@ My primary research interests lie in the area of Natural Language Processing & L
 - 2024.08 - Present: NLP Researcher, WeChat AI, Tencent, with [Fandong Meng](https://fandongmeng.github.io/).
 - 2023.06 - 2024.07: NLP Researcher, Anti-Entropy (逆熵) AI, miHoYo Inc, with [Jun Xing](https://junxnui.github.io/) and [Yan Wang](https://libertywing.github.io/yanwang.github.io/).
 - 2021.09 - 2023.05: NLP Research Intern, WeChat AI, Tencent, with [Fandong Meng](https://fandongmeng.github.io/).
-- 2021.09 - 2023.06: Student Researcher, KW-DEMI Lab, Fudan University, with [Zhixu Li](https://sites.google.com/site/zhixuli).
 - 2021.06 - 2021.09: NLP Research Intern, Fuxi (伏羲) AI Lab, NetEase Game, with Cong Zhang.
 - 2021.03 - 2021.06: NLP Research Intern, iFLYTEK AI Research, with [Zhixu Li](https://sites.google.com/site/zhixuli).
 - 2019.10 - 2020.08: NLP Research Intern, iFLYTEK AI Research, with [Zhixu Li](https://sites.google.com/site/zhixuli).
