@@ -83,8 +83,8 @@ In Proc. of **AAAI 2024** (full paper)
 - Area Chair: ACL Rolling Review (2024-2025), NeurIPS 2025
 - PC Member:
     - NLP Conference: ACL Rolling Review (2022-2025), ACL (2023-2025), EMNLP (2022-2025), NAACL (2024-2025), EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024)
-    - DM Conference: KDD (2023, 2025), SIGIR 2025, WSDM 2026, SIGIR-AP 2025, SDM 2024 
-    - AI Conference: AAAI 2026, ICANN (2021, 2023), ICIRA 2023
+    - DM Conference: WWW (The Web Conf) 2026, KDD (2023, 2025), SIGIR 2025, WSDM 2026, SIGIR-AP 2025, SDM 2024 
+    - AI/ML Conference: ICLR 2026, AAAI 2026, ICANN (2021, 2023), ICIRA 2023
 - Journal Reviewer: Journal of Artificial Intelligence Research (JAIR)
 - IJCAI 2025 Tutorial: [LLM-based Role-Playing from the Perspective of Hallucination](https://ijcai-roleplay.github.io/)
 
