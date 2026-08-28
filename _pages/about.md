@@ -46,28 +46,31 @@ Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7
 arXiv preprint 2025       
 
 
-### Recent Publications
+### Selected Publications
++ [EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge](https://arxiv.org/abs/2606.13120) \| [[Data](https://huggingface.co/datasets/Krystalan/EvoBrowseComp)]     
+Yunhan Wang, **Jiaan Wang**, Lianzhe Huang, Xianfeng Zeng and Fandong Meng   
+Accepted by **EMNLP 2026** (findings)  
 + [DeepTrans: Deep Reasoning Translation via Reinforcement Learning](https://arxiv.org/abs/2504.10187) \| [[GitHub](https://github.com/krystalan/DRT)]     
 **Jiaan Wang**, Fandong Meng and Jie Zhou  
 In **TACL 2026**  
 + [Retrieval-Augmented Machine Translation with Unstructured Knowledge](https://arxiv.org/abs/2412.04342) \| [[GitHub](https://github.com/krystalan/RAGtrans)]   
 **Jiaan Wang**, Fandong Meng, Yingxue Zhang and Jie Zhou   
-In Proc. of **EMNLP 2025** (findings, full paper)   
+In Proc. of **EMNLP 2025** (findings)   
 + [DRT: Deep Reasoning Translation via Long Chain-of-Thought](https://arxiv.org/abs/2412.17498) \| [[GitHub](https://github.com/krystalan/DRT)]   
 **Jiaan Wang**, Fandong Meng, Yunlong Liang and Jie Zhou   
-In Proc. of **ACL 2025** (findings, full paper)    
+In Proc. of **ACL 2025** (findings)    
 + [An Empirical Study of Many-to-Many Summarization with Large Language Models](https://arxiv.org/abs/2505.12983)       
 **Jiaan Wang**, Fandong Meng, Zengkui Sun, Yunlong Liang, Yuxuan Cao, Jiarong Xu, Haoxiang Shi and Jie Zhou   
-In Proc. of **ACL 2025** (main conference, full paper)    
+In Proc. of **ACL 2025** (main conference)    
 + [Cross-Lingual Knowledge Editing in Large Language Models](https://arxiv.org/abs/2309.08952) \| [[Data&Code](https://github.com/krystalan/Bi_ZsRE)]  
 **Jiaan Wang**, Yunlong Liang, Zengkui Sun, Yuxuan Cao, Jiarong Xu and Fandong Meng   
-In Proc. of **ACL 2024** (main conference, full paper)    
+In Proc. of **ACL 2024** (main conference)    
 + [Towards Unifying Multi-Lingual and Cross-Lingual Summarization](http://arxiv.org/abs/2305.09220)  \| [[Model](https://huggingface.co/Krystalan/PISCES)] \| [[Report](https://mp.weixin.qq.com/s/JHyXyWrKfj5YrtSZKpfwog)]   
 **Jiaan Wang**, Fandong Meng, Duo Zheng, Yunlong Liang, Zhixu Li, Jianfeng Qu and Jie Zhou   
-In Proc. of **ACL 2023** (main conference, full paper)
+In Proc. of **ACL 2023** (main conference)
 + [Understanding Translationese in Cross-Lingual Summarization](https://arxiv.org/abs/2212.07220)  
 **Jiaan Wang**, Fandong Meng, Yunlong Liang, Tingyi Zhang, Jiarong Xu, Zhixu Li and Jie Zhou  
-In Proc. of **EMNLP 2023** (findings, full paper)
+In Proc. of **EMNLP 2023** (findings)
 + [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](https://arxiv.org/abs/2303.04048) \| [[Data&Code](https://github.com/krystalan/chatgpt_as_nlg_evaluator)]     
 **Jiaan Wang**, Yunlong Liang, Fandong Meng, Zengkui Sun, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu and Jie Zhou  
 In Proc. of **NewSumm@EMNLP 2023** (workshop paper)
@@ -76,10 +79,10 @@ In Proc. of **NewSumm@EMNLP 2023** (workshop paper)
 In **TACL 2022**   
 + [ClidSum: A Benchmark Dataset for Cross-Lingual Dialogue Summarization](https://arxiv.org/abs/2202.05599) \| [[Data&Code](https://github.com/krystalan/ClidSum)] \| [[Model](https://huggingface.co/Krystalan/mdialbart_zh)] \| [[Report](https://mp.weixin.qq.com/s/M8BR3MySZBuu7ixdFi_SRQ)]  
 **Jiaan Wang**, Fandong Meng, Ziyao Lu, Duo Zheng, Zhixu Li, Jianfeng Qu and Jie Zhou   
-In Proc. of **EMNLP 2022** (main conference, full paper)  
+In Proc. of **EMNLP 2022** (main conference)  
 + [Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning](https://arxiv.org/abs/2401.04361)  
 **Jiaan Wang**, Jianfeng Qu, Kexin Wang, Zhixu Li, Wen Hua, Ximing Li and An Liu  
-In Proc. of **AAAI 2024** (full paper)  
+In Proc. of **AAAI 2024**  
 
 ### Management Sciences
 + [A User Purchase Motivation-Aware Product Recommender System](https://pubsonline.informs.org/doi/abs/10.1287/isre.2024.1028)  
