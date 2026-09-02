@@ -41,6 +41,9 @@ Please refer to [Google Scholar](https://scholar.google.com/citations?user=5S8h7
 
 ### Recent Preprints
 
++ [AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds](https://arxiv.org/abs/2608.29397) \| [[GitHub](https://github.com/xzx34/AlgoWorlds)]     
+Zixiang Xu, **Jiaan Wang** and Fandong Meng  
+arXiv preprint 2026       
 + [ExTrans: Multilingual Deep Reasoning Translation via Exemplar-Enhanced Reinforcement Learning](https://arxiv.org/abs/2505.12996) \| [[GitHub](https://github.com/krystalan/DRT)]     
 **Jiaan Wang**, Fandong Meng and Jie Zhou  
 arXiv preprint 2025       
