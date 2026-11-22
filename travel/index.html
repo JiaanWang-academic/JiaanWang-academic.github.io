@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>我的足迹地图 · 点亮中国</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>" />
+</head>
+<body>
+<div class="app">
+  <!-- ============ 侧边栏 ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-logo">🗺️</div>
+      <div>
+        <h1>我的足迹地图</h1>
+        <p class="brand-sub">点亮你走过的每一座城</p>
+      </div>
+    </div>
+
+    <!-- 统计 -->
+    <div class="stat-grid">
+      <div class="stat">
+        <div class="stat-num" id="statProvince">0</div>
+        <div class="stat-label">省 / 直辖市</div>
+        <div class="stat-bar"><i id="barProvince"></i></div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="statCity">0</div>
+        <div class="stat-label">城市</div>
+        <div class="stat-bar"><i id="barCity"></i></div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="statArea">0</div>
+        <div class="stat-label">万 km² 国土</div>
+        <div class="stat-bar"><i id="barArea"></i></div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="statWish">0</div>
+        <div class="stat-label">想去清单</div>
+        <div class="stat-bar"><i id="barWish"></i></div>
+      </div>
+    </div>
+
+    <!-- 画笔 -->
+    <section class="panel">
+      <h2>点亮画笔 <span class="hint">点地图后按此状态标记</span></h2>
+      <div class="brush-row" id="brushRow"></div>
+      <label class="switch-row">
+        <input type="checkbox" id="chkInstant" />
+        <span>点击地图直接点亮，不用确认</span>
+      </label>
+    </section>
+
+    <!-- 省市选择 -->
+    <section class="panel">
+      <h2>按省市选择</h2>
+      <div class="field">
+        <select id="selProvince"><option value="">选择省 / 直辖市…</option></select>
+      </div>
+      <div class="field">
+        <select id="selCity" disabled><option value="">选择城市…</option></select>
+      </div>
+      <div class="btn-row">
+        <button class="btn" id="btnLightCity">点亮该市</button>
+        <button class="btn" id="btnZoomProvince">进入该省</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn ghost" id="btnLightProvince">点亮整省</button>
+        <button class="btn ghost danger" id="btnClearProvince">清空该省</button>
+      </div>
+    </section>
+
+    <!-- 我的城市 -->
+    <section class="panel">
+      <h2>我在哪儿 <span class="hint">用于按距离排序推荐</span></h2>
+      <div class="field">
+        <input id="homeInput" list="cityOptions" placeholder="输入常住城市，如 杭州" autocomplete="off" />
+      </div>
+      <p class="home-now" id="homeNow"></p>
+    </section>
+
+    <!-- 当季 -->
+    <section class="panel">
+      <h2 id="seasonTitle">本月去哪儿 <span class="hint" id="seasonHint"></span></h2>
+      <div id="seasonMini"></div>
+      <div class="btn-row">
+        <button class="btn ghost" id="btnSeasonMore">查看当季推荐 →</button>
+      </div>
+    </section>
+
+    <!-- 标签 -->
+    <section class="panel">
+      <h2>我的标签 <span class="hint" id="tagSummary"></span></h2>
+      <div id="tagCloud" class="tag-cloud"></div>
+      <div class="btn-row">
+        <button class="btn ghost" id="btnOpenAtlas">打开标签图鉴 →</button>
+      </div>
+    </section>
+
+    <!-- 区域进度 -->
+    <section class="panel">
+      <h2>大区覆盖</h2>
+      <div id="regionList" class="region-list"></div>
+    </section>
+
+    <!-- 年份 -->
+    <section class="panel">
+      <h2>旅行年历</h2>
+      <div id="yearList" class="year-list"><p class="empty">还没有记录年份的城市</p></div>
+    </section>
+
+    <!-- 足迹清单 -->
+    <section class="panel">
+      <h2>足迹清单 <span class="hint" id="listCount"></span></h2>
+      <div id="visitList" class="visit-list"><p class="empty">点击地图开始点亮吧 ✨</p></div>
+    </section>
+
+    <!-- 数据 -->
+    <section class="panel">
+      <h2>数据管理</h2>
+      <div class="btn-row">
+        <button class="btn ghost" id="btnExportJSON">导出备份</button>
+        <button class="btn ghost" id="btnImportJSON">导入备份</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn ghost" id="btnBatch">批量录入</button>
+        <button class="btn ghost" id="btnCopyText">复制清单</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn ghost danger" id="btnReset">清空全部</button>
+      </div>
+      <p class="tiny">数据保存在本机浏览器（localStorage），不会上传任何服务器。建议定期「导出备份」。</p>
+    </section>
+  </aside>
+
+  <!-- ============ 地图区 ============ -->
+  <main class="main">
+    <div class="toolbar">
+      <button class="icon-btn only-mobile" id="btnMenu" title="菜单">☰</button>
+      <div class="view-switch" id="viewSwitch">
+        <button data-view="city" class="active">市级</button>
+        <button data-view="province">省级</button>
+      </div>
+      <div class="search-wrap">
+        <input id="searchInput" list="cityOptions" placeholder="搜索城市，回车点亮…" autocomplete="off" />
+        <datalist id="cityOptions"></datalist>
+      </div>
+      <div class="spacer"></div>
+      <button class="icon-btn" id="btnBack" title="返回全国" hidden>↩︎ 全国</button>
+      <button class="icon-btn" id="btnFit" title="重置视角">⦿</button>
+      <button class="icon-btn" id="btnSeasonLayer" title="在地图上高亮当季推荐">🔥<span class="only-wide"> 当季</span></button>
+      <button class="icon-btn" id="btnTheme" title="切换主题">🌙</button>
+      <button class="btn" id="btnAtlas" title="标签图鉴 (T)">🏷️<span class="only-wide"> 标签图鉴</span></button>
+      <button class="btn primary" id="btnShot">导出图片</button>
+    </div>
+
+    <div id="chart" class="chart"></div>
+
+    <div class="legend" id="legend"></div>
+
+    <!-- 城市详情 -->
+    <div class="detail" id="detail" hidden>
+      <button class="detail-close" id="detailClose">×</button>
+      <h3 id="dTitle">城市</h3>
+      <p class="detail-sub" id="dSub"></p>
+      <div class="detail-tags" id="dTags"></div>
+
+      <div class="confirm" id="dConfirm" hidden>
+        <button class="btn primary" id="dConfirmOk">确认点亮</button>
+        <button class="btn ghost" id="dConfirmCancel">取消</button>
+        <p class="confirm-tip" id="dConfirmTip"></p>
+      </div>
+
+      <div class="detail-status" id="dStatus"></div>
+
+      <div id="dExtra">
+        <div class="detail-field">
+          <label>首次到访年份</label>
+          <input type="number" id="dYear" min="1900" max="2100" placeholder="如 2023" />
+        </div>
+        <div class="detail-field">
+          <label>评分</label>
+          <div class="stars" id="dStars"></div>
+        </div>
+        <div class="detail-field">
+          <label>旅行记录</label>
+          <textarea id="dNote" rows="3" placeholder="和谁去的、吃了什么、最难忘的瞬间…"></textarea>
+        </div>
+        <div class="btn-row">
+          <button class="btn ghost danger" id="dClear">取消点亮</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- ============ 标签图鉴 ============ -->
+<div class="atlas" id="atlas" hidden>
+  <div class="atlas-box">
+    <header class="atlas-head">
+      <div>
+        <h2>🏷️ 旅行标签图鉴</h2>
+        <p class="atlas-sub" id="atlasSub"></p>
+      </div>
+      <button class="detail-close" id="atlasClose">×</button>
+    </header>
+
+    <nav class="atlas-tabs" id="atlasTabs">
+      <button data-tab="season" class="active">🔥 当季推荐</button>
+      <button data-tab="collected">我的标签</button>
+      <button data-tab="recommend">全部推荐</button>
+      <button data-tab="all">全部标签</button>
+    </nav>
+
+    <div class="atlas-body" id="atlasBody"></div>
+  </div>
+</div>
+
+<!-- 弹窗：批量录入 -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-box">
+    <h3 id="modalTitle">批量录入城市</h3>
+    <p class="tiny" id="modalTip">每行或用逗号/空格分隔，支持「杭州」「杭州市」「浙江杭州」等写法。</p>
+    <textarea id="modalText" rows="10" placeholder="北京 上海 杭州&#10;苏州, 南京, 成都"></textarea>
+    <div class="modal-status" id="modalStatus"></div>
+    <div class="btn-row end">
+      <button class="btn ghost" id="modalCancel">取消</button>
+      <button class="btn primary" id="modalOk">确定</button>
+    </div>
+  </div>
+</div>
+
+<input type="file" id="fileInput" accept="application/json" hidden />
+<div class="toast" id="toast" hidden></div>
+
+<script src="vendor/echarts.min.js"></script>
+<script src="js/season.js"></script>
+<script src="data/china-geo.js"></script>
+<script src="data/city-tags.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
