@@ -97,7 +97,7 @@ In **INFORMS Journal on Computing** (UTD-24)
 
 
 # 🗞️ Academic Services & Teaching
-- Area Chair: ICLR 2026, NeurIPS (2025-2026), ACL Rolling Review (2024-2025), LREC 2026
+- Area Chair: ICLR 2027, NeurIPS (2025-2026), ACL Rolling Review (2024-2025), LREC 2026
 - PC Member:
     - NLP Conference: ACL Rolling Review (2022-2025), ACL (2023-2025), EMNLP (2022-2025), NAACL (2024-2025), EACL 2024, COLING (2022, 2024, 2025), CoNLL (2023-2024)
     - DM Conference: WWW (The Web Conf) 2026-2027, KDD (2023, 2025), SIGIR 2025, WSDM (2026-2027), SIGIR-AP (2025-2026), SDM 2024 
